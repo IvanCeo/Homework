@@ -7,7 +7,7 @@ class DBConfig(BaseModel):
     db_user: str
     db_password: str
     db_host: str
-    db_port: str
+    db_port: int
     
     @property
     def db_url(self):

@@ -12,4 +12,4 @@ migration:
 
 run:
 	@echo 'running app...'
-	poetry run cli.py api
+	poetry run python cli.py api
