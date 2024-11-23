@@ -2,6 +2,12 @@ import logging
 from logging.config import dictConfig
 from app.config import settings
 logger = logging.getLogger(settings.app.app_name)
+# we set level thats means we want to see all logs, example
+# debug = 10
+# info = 20
+# warning = 30
+# error = 40
+# critical = 50
 logger.setLevel(logging.INFO)
 handler = logging.StreamHandler()
 formatter = logging.Formatter(
